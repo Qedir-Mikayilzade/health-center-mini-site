@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Onlayn Müraciət</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo" ></div>
+        <div class="menu">
+            <div class="menuItems"><i class="fa-solid fa-user-doctor fa-beat"></i><a href="/hekimler/doctors.html"> Həkimlərimiz</a></div>
+            <div class="menuItems"><i class="fa-solid fa-door-open fa-beat"></i><a href="/sobeler/sobe.html"> Şöbələrimiz</a></div>
+            <div class="menuItems"><i class="fa-regular fa-hospital fa-bounce"></i><a href="/filiallar/filiallar.html"> Filiallarımız</a></div>
+            <div class="menuItems"><i class="fa-solid fa-square-poll-horizontal fa-bounce"></i><a href="/neticeler/netice.html"> Müayinə nəticələri</a></div>
+            <div class="menuItems"><i class="fa-solid fa-info fa-beat-fade"></i><a href="/haqqinda/about.html"> Haqqımızda</a></div>
+        </div>
+        <input class="axtar" type="search" placeholder=" AXTARIN" >
+    </div>
+
+    <div class="center">
+        <div class="divkecid"><i class="fa-solid fa-backward fa-beat"></i> <a class="kecid" href="/index.html">    Əsas səhifə</a></div>
+        <div class="inputs">
+            <form action="">
+                <h2>Qeydiyyat üçün form</h2>
+                <div class="items">
+                    <label for="name"><i class="fa-solid fa-user"></i></label>
+                    <input type="text" id="name" placeholder="Adınız" required>
+                </div>
+                <div class="items">
+                    <label for="surname"><i class="fa-solid fa-user"></i></label>
+                    <input type="text" id="surname" placeholder="Soyadınız" required>
+                </div>
+                <div class="items">
+                    <label for="dadname"><i class="fa-solid fa-user"></i></label>
+                    <input type="text" id="dadname" placeholder="Ata adınız" required>
+                </div>
+                <div class="items">
+                    <label for="Fincode"><i class="fa-solid fa-address-card fa-beat"></i></label>
+                    <input type="text" id="Fincode" placeholder="Fin Kodunuz" required>
+                </div>
+                <div class="items">
+                    <label for="telNumber"><i class="fa-solid fa-phone fa-shake"></i></label>
+                    <input type="tel" id="telNumber" placeholder="Telefon: 0XX-XXX-XX-XX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                </div>
+                <div class="items cins">
+                    <label for="cins"> Cinsiniz:</label>
+                    <input type="radio" id="cins" name="cins" required>
+                    Kişi
+                    <input type="radio" id="cins" name="cins">
+                    Qadın
+                </div>
+                <div class="items select">
+                    <label for="doctor"><i class="fa-solid fa-user-doctor fa-beat"></i> Müayinə üçün qeydiyyatdan  keçmək istədiyiniz həkimi seçin:</label>
+                    <select id="doctor" required>
+                        <option value=""  disabled hidden selected >Seçim edin:</option>
+                        <option value="">Dr. Murat Kamalov, Pediatr</option>
+                        <option value="">Dr. Çinarə Quliyeva, Uroloq</option>
+                        <option value="">Dr. Daşqın Rəsulzadə, Cərrah</option> 
+                        <option value="">Gülay Məmmədli, Psixoloq</option>
+                        <option value="">Aydın Qadaşov, Oftolmoloq</option>
+                        <option value="">Firuzə Yaşarova, Kosmetoloq</option>
+                    </select>
+                </div>
+                <div class="items select">
+                    <label for="filial"><i class="fa-regular fa-hospital fa-bounce"></i> Müayinə üçün getmək istədiyiniz filialı seçin:</label>
+                    <select id="filial" required>
+                        <option value=""  disabled hidden selected >Seçim edin:</option>
+                        <option value="">Qara Qarayev filialı</option>
+                        <option value="">Nəriman Nərimanov filialı/option>
+                        <option value="">20 yanvar filialı</option>
+                        <option value="">28 May filialı</option>
+                        <option value="">Binəqədi Filialı</option>
+                        <option value="">Sabunçu filialı</option>
+                        <option value="">Masazir filialı</option>
+                        <option value="">Maştağa filialı</option>
+                    </select>
+                </div>
+                <div class="items">
+                    <label for="tarix">Müayinə üçün gün seçin</label><br>
+                    <input id="tarix" type="date">
+                </div>
+                <div class="items">
+                    <label for="vaxt">Müayinə üçün saat seçin</label><br>
+                    <input id="vaxt" type="time"><br><br>
+                </div>
+                <input class="button" type="submit" value="Qeydiyyat üçün müraciəti göndər"> 
+                <input class="button" type="reset" value="Daxil edilmiş məlumatları sil">
+            </form>
+        </div>
+        <div class="informations">
+            
+        </div>
+    </div>     
+
+    <div class="footer">
+        <div class="info">
+            <div class="column">
+            <div><i class="fa-solid fa-envelope"></i> E-mail adresi:  forexample.medical@gmail.com</div>
+            <div><i class="fa-solid fa-phone-volume"></i> Telefon nömrəsi: 0XX-XXX-XX-XX</div>
+            <div><i class="fa-solid fa-phone-volume"></i> Telefon nömrəsi: 0YY-YYY-YY-YY</div>
+            <div><i class="fa-brands fa-square-facebook"></i> Facebook</div>
+            <div><i class="fa-brands fa-square-instagram"></i> İnstagram</div>
+            <div><i class="fa-brands fa-youtube"></i> Youtube</div>
+            <div>Mərkəzi Filialın Ünvanı: Bakı şəhəri, Lorem İpsum Küçəsi 86</div>
+        </div>
+        <div class="column">
+            <div>Reabilitasiya mərkəzləri</div>
+            <div>Qan ver</div>
+            <div>Aksiyalar və Kompaniyalar</div>
+            <div>Qaydalar</div>
+            <div>Laboratoriya</div>
+            <div>Diaqnostika</div>
+            <div>Tibbi Sığorta</div>
+        </div></div>
+        <div>© 2020 - 2024 Mikayılzadə Qədir KURSİŞİ. Bütün hüquqları qorunur.</div><br>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
+

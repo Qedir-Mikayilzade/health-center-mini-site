@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+a{
+    text-decoration: none;
+    color:white;}
+
+.header{
+    top:0;
+    left:0;
+    position: fixed;
+    opacity: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: green;
+    height: 85px;
+    z-index: 999;
+    box-shadow: 2px 2px 12px black;}
+
+.logo{
+    background-image: url(/home/İmages/Logo\ 2.jpg);
+    background-size: cover;
+    width: 70px; 
+    height: 70px;
+    margin: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px;} 
+
+.axtar{
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    padding:5px 0px 5px 25px;
+    margin-left:5px;
+    cursor: pointer;}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    color:white;}
+
+.menuItems{
+    color:white;
+    transition: 300ms;}
+
+.menuItems:hover{
+    transform: scale(1.08);
+    color:#ffea00;}
+
+.menuItems a:hover{
+    color:yellow;}
+
+.form{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    padding:8px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 300ms;
+    border-radius:15px;}
+
+.form:hover{
+    transform:scale(1.06);
+    background-color:rgb(64, 212, 64)}
+
+body{
+    background-color: rgb(165, 255, 172);}
+
+.center{
+    margin-top:120px;}
+
+.metn{
+    font-size: 50px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;}    
+
+.sobeler{
+    display: flex;
+    flex-direction: column;}
+
+.row{
+    display: flex;
+    flex-direction: row;}
+
+.sobe{
+    width: 400px;
+    height: 440px;
+    border: 1px solid grey;
+    transition: 300ms;
+    border-radius: 0px 45px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    box-shadow: 2px 2px 12px black;
+    background-color: white;}
+
+.sobe:hover{
+    transform:scale(1.06);
+    background-color: aqua;}
+
+.image{
+    border:2px solid grey;
+    border-radius: 15px;
+    width: 350px;
+    height: 300px;}
+
+.image:hover{
+    border:2px solid white;}
+
+.image1{
+    background-image: url(/sobeler/images/Dermatologiya\ və\ kosmetologiya.jpg);
+    background-size: cover;}
+    
+.image2{
+    background-image: url(/sobeler/images/Endokrinologiya.jpg);
+    background-size: cover;}
+    
+.image3{
+    background-image: url(/sobeler/images/Estetik\ plastik\ və\ rekonstruktiv\ cərrahiyyə.jpg);
+    background-size: cover;}
+    
+.image4{
+    background-image: url(/sobeler/images/Fizioterapiya\ və\ Reabilitasiya.jpg);
+    background-size: cover;}
+    
+.image5{
+    background-image: url(/sobeler/images/Ginekologiya.jpg);
+    background-size: cover;}
+    
+.image6{
+    background-image: url(/sobeler/images/Kardiologiya.jpg);
+    background-size: cover;}
+    
+.image7{
+    background-image: url(/sobeler/images/Kardiovaskulyar\ Cərrahiyyə.jpg);
+    background-size: cover;}
+    
+.image8{
+    background-image: url(/sobeler/images/Laboratoriya.jpg);
+    background-size: cover;}
+
+.image9{
+    background-image: url(/sobeler/images/LOR.jpg);
+    background-size: cover;}
+
+.image10{
+    background-image: url(/sobeler/images/Nefrologiya.jpg);
+    background-size: cover;}
+
+.image11{
+    background-image: url(/sobeler/images/Nevrologiya.jpg);
+    background-size: cover;}
+
+.image12{
+    background-image: url(/sobeler/images/Oftalmologiya.jpg);
+    background-size: cover;}
+
+.image13{
+    background-image: url(/sobeler/images/Ortopediya\ travmatologiya\ və\ mikrocərrahiyyə\ mərkəzi.jpg);
+    background-size: cover;}
+
+.image14{
+    background-image: url(/sobeler/images/Pediatriya.jpg);
+    background-size: cover;}
+
+.image15{
+    background-image: url(/sobeler/images/Qastroenterologiya-Hepatologiya.jpg);
+    background-size: cover;}
+
+.image16{
+    background-image: url(/sobeler/images/Radiologiya.jpg);
+    background-size: cover;}
+
+.image17{
+    background-image: url(/sobeler/images/Reanimasiya\ və\ Anesteziologiya.jpg);
+    background-size: cover;}
+
+.image18{
+    background-image: url(/sobeler/images/Terapiya.jpg);
+    background-size: cover;}
+
+.image19{
+    background-image: url(/sobeler/images/Təcili\ tibbi\ yardım.jpg);
+    background-size: cover;}
+    
+.image20{
+    background-image: url(/sobeler/images/Ümumi\ cərrahiyyə\ bölümü.jpg);
+    background-size: cover;}
+
+.image21{
+    background-image: url(/sobeler/images/Urologiya\ və\ Andrologiya.jpg);
+    background-size: cover;}
+    
+.moreinf{
+    width: 120px;
+    border:1px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.text{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.text a{
+    color:black;}
+
+.footer{
+    background-color: green;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    color: white;}
+
+.info{
+    padding: 20px;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    gap:70px;}
+
+.fa-envelope{
+    color:white;}
+
+.fa-phone-volume{
+    color:black;}
+
+.fa-square-facebook{
+    color:rgb(32, 113, 212);
+    background-color: white;}
+
+.fa-square-instagram{
+    color:rgb(187, 16, 244);
+    background-color: white;}
+
+.fa-youtube{
+    color: red;
+    background-color: white;}
+ 

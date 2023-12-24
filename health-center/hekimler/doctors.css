@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+a{
+    text-decoration: none;
+    color:white;}
+
+.header{
+    top:0;
+    left:0;
+    position: fixed;
+    opacity: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: green;
+    height: 85px;
+    z-index: 999;
+    box-shadow: 2px 2px 12px black;}
+
+.logo{
+    background-image: url(/home/İmages/Logo\ 2.jpg);
+    background-size: cover;
+    width: 70px; 
+    height: 70px;
+    margin: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px;} 
+
+.axtar{
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    padding:5px 0px 5px 25px;
+    margin-left:5px;
+    cursor: pointer;}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    color:white;}
+
+.menuItems{
+    color:white;
+    transition: 300ms;}
+
+.menuItems:hover{
+    transform: scale(1.08);
+    color:#ffea00;}
+
+.menuItems a:hover{
+    color:yellow;}
+
+.form{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    padding:8px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 300ms;
+    border-radius:15px;}
+
+.form:hover{
+    transform:scale(1.06);
+    background-color:rgb(64, 212, 64)}
+
+body{
+    background-color: rgb(165, 255, 172);}
+
+.center{
+    margin-top:110px;}
+
+.metn{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top:110px;
+    color:black} 
+
+.hekimler{
+    display: flex;
+    flex-direction: column;}
+
+.row{
+    display: flex;
+    flex-direction: row;}
+
+.hekim{
+    width: 240px;
+    height: 300px;
+    border: 1px solid grey;
+    transition: 300ms;
+    border-radius: 15px;
+    padding:20px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    box-shadow: 2px 2px 12px black;
+    background-color: white;}
+
+.hekim:hover{
+    transform:scale(1.06);
+    background-color: aqua;}
+
+.image{
+    border:2px solid grey;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;}
+
+.image:hover{
+    border:2px solid white;}
+
+.image1{
+    background-image: url(/hekimler/images/hekim1.jpg);
+    background-size: cover;}
+    
+.image2{
+    background-image: url(/hekimler/images/hekim2.jpg);
+    background-size: cover;}
+    
+   
+.image3{
+    background-image: url(/hekimler/images/hekim3.jpg);
+    background-size: cover;}
+    
+.image4{
+    background-image: url(/hekimler/images/hekim4.jpg);
+    background-size: cover;}
+    
+.image5{
+    background-image: url(/hekimler/images/hekim5.jpg);
+    background-size: cover;}
+    
+.image6{
+    background-image: url(/hekimler/images/hekim6.jpg);
+    background-size: cover;}
+    
+.image7{
+    background-image: url(/hekimler/images/hekim7.jpg);
+    background-size: cover;}
+    
+.image8{
+    background-image: url(/hekimler/images/hekim8.jpg);
+    background-size: cover;}
+
+.image9{
+    background-image: url(/hekimler/images/hekim9.jpg);
+    background-size: cover;}
+
+.moreinf{
+    border:1px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content:center;}
+
+.moreinf a{
+    color:black;}
+
+.footer{
+    background-color: green;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    color: white;}
+
+.info{
+    padding: 20px;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    gap:70px;}
+
+.fa-envelope{
+    color:white;}
+
+.fa-phone-volume{
+    color:black;}
+
+.fa-square-facebook{
+    color:rgb(32, 113, 212);
+    background-color: white;}
+
+.fa-square-instagram{
+    color:rgb(187, 16, 244);
+    background-color: white;}
+
+.fa-youtube{
+    color: red;
+    background-color: white;}
